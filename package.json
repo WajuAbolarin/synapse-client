@@ -1,0 +1,18 @@
+{
+  "name": "client",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "npx tailwindcss-cli@latest build -o ./src/tailwind.css -c tailwind.config.js && parcel src/*.html"
+  },
+  "dependencies": {
+    "autoprefixer": "^9",
+    "parcel-bundler": "^1.12.4",
+    "postcss": "^7",
+    "postcss-modules": "^4.0.0",
+    "rrweb": "^0.9.14",
+    "rrweb-player": "^0.7.0",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat"
+  }
+}
